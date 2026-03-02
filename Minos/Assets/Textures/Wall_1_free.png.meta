@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 268dfc55543d8e84bbdb60d3e4129f67
+guid: 6f16e5350cd21ad43bd6c02217e45ad0
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4404561919133983870
-    second: seamless-green-grass-texture-with-old-stone-tiles-vector_0
+      213: 9182157284707403512
+    second: Untitled-1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -51,7 +51,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1002
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -113,13 +113,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: seamless-green-grass-texture-with-old-stone-tiles-vector_0
+      name: Untitled-1_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 960
-        height: 980
+        width: 2134
+        height: 602
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +128,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 28b5eca554adfd2c0800000000000000
-      internalID: -4404561919133983870
+      spriteID: 8f600cab6639d6f70800000000000000
+      internalID: 9182157284707403512
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 3bce633b131b1ce488d1f3fb874665d6
+    spriteID: 720e9bdb54be93141ba536c8a546172d
     internalID: 0
     vertices: []
     indices: 
@@ -148,8 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      seamless-green-grass-texture-with-old-stone-tiles-vector_0: -4404561919133983870
-      seamless-green-grass-texture-with-old-stone-tiles-vector_1: -1935313233
+      Untitled-1_0: 9182157284707403512
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
