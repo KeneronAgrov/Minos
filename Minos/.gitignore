@@ -1,0 +1,19 @@
+# Unity generated
+Library/
+Temp/
+Logs/
+Obj/
+Build/
+UserSettings/
+
+# Visual Studio
+.vs/
+.vscode/
+.idea/
+
+# Packages cache
+Packages/
+
+# OS files
+.DS_Store
+Thumbs.db
