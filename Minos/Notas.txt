@@ -1,0 +1,8 @@
+Dia 1 
+creando nuevo repo asignando nuevas carpetas entiendiendo bien GitHub 
+creadno texturas y aplicando fisicas
+
+dia 2 
+poniendo scripts de movimiento y de joystick virtual, 
+poniendo sonidos
+publicando v 0.1 en unity 
