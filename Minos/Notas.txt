@@ -6,3 +6,6 @@ dia 2
 poniendo scripts de movimiento y de joystick virtual, 
 poniendo sonidos
 publicando v 0.1 en unity 
+
+Dia 3 
+haciendo menu principal navegable con assets y SFX 
