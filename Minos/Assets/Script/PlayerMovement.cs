@@ -6,10 +6,12 @@ public class PlayerMovement : MonoBehaviour {
     private Rigidbody2D rb;
     private Vector2 movement;
     public AudioClip[] footstepClips;
-    public float stepInterval = 0.4f;
+    private float stepInterval = 0.4f;
     public FixedJoystick joystick;
     private AudioSource audioSource;
     private float stepTimer;
+    private float xRange = 9f; // Ajusta según tu escena
+    private float yRange = 4.5f; // Ajusta según tu escena
 
     void Start() {
         rb = GetComponent<Rigidbody2D>();
@@ -27,6 +29,20 @@ public class PlayerMovement : MonoBehaviour {
     void Update() {
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
+
+        //limitar que se vaya del boundary
+        if (transform.position.x < -xRange) {
+            transform.position = new Vector3(-xRange, transform.position.y, transform.position.z);
+        } 
+        if (transform.position.x > xRange) {
+            transform.position = new Vector3(xRange, transform.position.y, transform.position.z);
+        }
+        if (transform.position.y < -yRange) {
+            transform.position = new Vector3(transform.position.x, -yRange, transform.position.z);
+        }
+        if (transform.position.y > yRange) {
+            transform.position = new Vector3(transform.position.x, yRange, transform.position.z);
+        }
 
         // Si existe joystick móvil, usarlo
         if (joystick != null) {

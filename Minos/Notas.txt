@@ -9,3 +9,4 @@ publicando v 0.1 en unity
 
 Dia 3 
 haciendo menu principal navegable con assets y SFX 
+Modificando boundarys del mapa para el personaje 
