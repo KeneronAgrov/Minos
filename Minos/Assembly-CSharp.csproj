@@ -51,10 +51,13 @@
   <ItemGroup>
     <Compile Include="Assets\Script\MobileUIController.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FloatingJoystick.cs" />
+    <Compile Include="Assets\Script\InputManager.cs" />
     <Compile Include="Assets\Script\LoadSceneByIndex.cs" />
     <Compile Include="Assets\Script\CustomSceneManager.cs" />
+    <Compile Include="Assets\Script\Hammer.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\FixedJoystick.cs" />
     <Compile Include="Assets\Script\Collectible2D.cs" />
+    <Compile Include="Assets\Script\ConfirmButton.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Joysticks\DynamicJoystick.cs" />
     <Compile Include="Assets\Joystick Pack\Scripts\Base\Joystick.cs" />
     <Compile Include="Assets\Joystick Pack\Examples\JoystickPlayerExample.cs" />

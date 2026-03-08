@@ -89,12 +89,16 @@ public class MenuSpriteSelector : MonoBehaviour {
 
         // Confirmar (sonido PRIMERO, luego retraso para cargar escena)
         if (Input.GetKeyDown(KeyCode.Return) ||
-            Input.GetKeyDown(KeyCode.KeypadEnter) ||
-            Input.GetKeyDown(KeyCode.Space)) {
+             Input.GetKeyDown(KeyCode.KeypadEnter) ||
+             Input.GetKeyDown(KeyCode.Space) ||
+             InputManager.Instance.ConfirmPressed) {
+            Debug.Log("Confirm pressed");
+            
             PlaySound(confirmSound);
             Invoke("ActivateCurrentOption", confirmDelay);
         }
     }
+
 
     // Método público para el botón UI del móvil
     public static void SelectCurrent() {
