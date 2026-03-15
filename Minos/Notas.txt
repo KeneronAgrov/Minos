@@ -16,3 +16,8 @@ Agregue in game object
 agregue SFX para el ingame object
 agregue botones para jugar con mobil que no funciona en la version web todavia 
 cambie para que el player mire para donde se mueve 
+
+Dia 5
+modificado los sprites del menu 
+agregado menu settings con posibilidad de aumentar y disminuir el volumen de la musica sfx y cambio de idioma(nuevo idioma x implementar)
+agregda la function de ir al menu con esc
